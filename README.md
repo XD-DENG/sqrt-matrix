@@ -1,12 +1,18 @@
-# sqrt-Matrix-R
-How to compute the square root of a matrix with R.
+# sqrt-Matrix
+How to compute the square root of matrix with R language and Python.
+
+
 
 ## What have been done here
 In this project, 
 
-(1) I tried to optimize the existing function "sqrtm" in package "expm" with Rcpp.
+(1) I tried to optimize the existing R function "sqrtm" in R package "expm" with Rcpp.
 
-(2) Implemented another two algorithms computing the square root of matrix, ***Babylonian method*** and ***Denman Beavers method***.
+(2) Introduced how to compute the square root of matrix with the existing function in Python.
+
+(3) Implemented another two algorithms computing the square root of matrix, ***Babylonian method*** and ***Denman Beavers method*** with R language and Python separately.
+
+
 
 ## Check & Compare
 I generated the code as below to compare the speed to compare the speed of these functions.
